@@ -20,7 +20,7 @@ Movie Barcode is a program written by me, Callum, that produces 'barcodes' of th
 Movie 'barcodes' have been known about for a long time, the process for these programmatically is quite simple. First we capture the first frame, we extract the average colour (I know I used color/colour interchangeably, _shhh_) of this and then add it to a large array. We will do this at incriments of the media file framerate, then once finished we use the Python Image Library to draw lines of 1 pixel width and fill it with this with the colour in of array. 
 There is much more to say, by one can understand most of it by reading the comments, and to conclude I would like to demonstrate the output of the program on Big Buck Bunny:
 
-![alt text](https://github.com/groegercesg/Movie_Barcode/BigBuckBunny-barcode.png/)
+![alt text](https://github.com/groegercesg/Movie_Barcode/blob/master/BigBuckBunny-barcode.png)
 
 ## Known Issues
 - Has to process frame by frame (sequentially), potentially slow for large files. Concurrency could potentially be used to help 
