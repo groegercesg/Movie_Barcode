@@ -72,7 +72,7 @@ while success:
 
         # remove file
         os.remove(filename)
-    # incriment count to continue process
+    # increment count to continue process
     count += 1
 
 # code for creating the image
@@ -93,7 +93,7 @@ for i in range(0, len(hexes)):
     # get colour to draw from array
     COLOR = "#" + str(hexes[i])
 
-    # draw line, incrimenting x position based on i
+    # draw line, incrementing x position based on i
     draw.line([i, 120, i, 480], width=1, fill=COLOR)
 next
 

@@ -5,3 +5,6 @@ bgr_to_rgb.py
 .vscode/settings.json
 file_split.py
 image_drawer.py
+BigBuckBunny-barcode.png
+gradient_test.py
+out.png
